@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'nccxlb4x9^e3ijkb%tpr^b^*)%(vpu$78voup$y_ho(05z#us8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['addbookapp.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
